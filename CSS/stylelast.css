@@ -1,0 +1,38 @@
+:root {
+  --background-color--: #55505c;
+  --main-color--: #5d737e;
+  --text-color--: #ffffff;
+  --Yellow--: #faf33e;
+  --Eton--: #7fc6a4;
+  --Nyanza: #d6f8d6;
+}
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+.container-5 h1 {
+  text-align: center;
+}
+.lat1 p,
+.lat2 p {
+  width: 300px;
+}
+.container-5 .partone {
+  padding: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background-color: var(--Eton--);
+}
+
+.partone img {
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
