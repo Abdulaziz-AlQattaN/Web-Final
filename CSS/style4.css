@@ -1,0 +1,267 @@
+:root {
+  --background-color--: #55505c;
+  --main-color--: #5d737e;
+  --text-color--: #ffffff;
+  --Yellow--: #faf33e;
+  --Eton--: #7fc6a4;
+  --Nyanza: #d6f8d6;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+}
+/* .vid-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+} */
+.background-color {
+  background-color: var(--Eton--);
+}
+.background-course {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://miro.medium.com/max/399/1*i607ZGRiS33cjjvLUK8QPA.png");
+  width: 100%;
+  height: 240px;
+}
+/*
+SideBar
+*/
+.container-msarat {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  margin-top: 10px;
+  margin-left: 3px;
+  width: 15%;
+  height: 65%;
+  background-color: var(--main-color--);
+  border-radius: 5px;
+}
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.sidebar-content a {
+  text-decoration: none;
+  color: var(--text-color--);
+  width: 100%;
+  height: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.sidebar-content a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+}
+.sidebar-content a:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+.container-First-Course {
+  width: 84.5%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.First-Column {
+  margin-top: 5px;
+  width: 54%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+/* Start Of Teacher Box */
+.TeacherBox {
+  padding: 5px;
+  width: 100%;
+  height: 30%;
+  background-color: tomato;
+  border-radius: 8px;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.Abdullah-Logo {
+  display: flex;
+  width: 100%;
+}
+.Abdullah-Logo img {
+  width: 70px;
+  height: 70px;
+}
+.Ainfo {
+  align-self: center;
+  margin-right: 10px;
+}
+.Ainfo h5 {
+  color: #fff;
+}
+.Ainfo h3 {
+  color: var(--text-color--);
+  margin-top: 5px;
+}
+.Apara {
+  margin-top: 15px;
+  width: 100%;
+}
+.checked {
+  color: orange;
+}
+.Apara p {
+  color: #fff;
+  font-size: 20px;
+}
+/* End Of Teacher Box */
+/* Start Of CourseInfo */
+.CourseInfo {
+  align-self: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 35%;
+  background-color: #cfcdcd;
+  border-radius: 5px;
+  overflow: auto;
+  /* Flex !!!!!!! */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.CourseInfo h3 {
+  text-align: right;
+  margin-top: 10px;
+}
+.Students,
+.Students-Ratings,
+.Certificate-Example {
+  margin-right: 10px;
+}
+.container-before-last {
+  margin-top: 10px;
+  background-color: var(--Nyanza);
+  border-radius: 5px;
+  height: 150px;
+}
+.container-last {
+  margin-top: 10px;
+  background-color: var(--Eton--);
+  height: 154px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container-last p {
+  margin-top: 22px;
+}
+/* End Of CourseInfo */
+.course-videos-content {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--main-color--);
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow: auto;
+}
+.Experince {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.Experince h1 {
+  font-size: 20px;
+}
+h1 span {
+  color: wheat;
+}
+
+.header-txt {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  color: aliceblue;
+}
+.header-txt .rightn {
+  margin-right: 70px;
+}
+.header-txt .leftn {
+  margin-left: 120px;
+}
+.TheContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.videos {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.vid {
+  width: 90%;
+  height: 8%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+}
+.vid p {
+  margin-top: 6px;
+  color: #fff;
+}
+.thetime {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tim {
+  width: 30%;
+  height: 6%;
+  border: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+}
+.tim p {
+  margin-top: 6px;
+  color: #fff;
+}
+.fa-play-circle:hover {
+  color: rgb(1, 192, 1);
+  cursor: pointer;
+}
+.Last-Message {
+  width: 200px;
+  height: 300px;
+}
+.videoo {
+  width: 100%;
+  height: 100vh;
+}

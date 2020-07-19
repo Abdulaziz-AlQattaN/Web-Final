@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="Add-Ons/Screenshot_9.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style2.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>شركة عبدالعزيز للبرمجة | حساب جديد</title>
+  </head>
+  <body>
+    <!-- onload="myFunction()" style="margin: 0;"
+    <div id="loader"></div>
+
+    <div style="display: none;" id="myDiv" class="animate-bottom"> -->
+    <div class="header">
+      <ul>
+        <li><a href="index.html">الصفحة الرئيسية</a></li>
+        <li><a href="index2.html">المعلومات</a></li>
+        <li>
+          <img
+            src="Add-Ons/9ea44d23-1587-4866-b4d6-27db71007677_200x200.png"
+            alt=""
+          />
+        </li>
+        <li><a href="index3.html">المسارات</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">انقر هنا</button>
+            <div class="dropdown-content">
+              <a href="SignIn.html" id="SignIn">تسجيل دخول</a>
+              <a href="HelpMe.html">المساعدة</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container-outside-SignIn">
+      <div class="bigtext"><p>قم باِنشاء حساب جديد</p></div>
+      <div class="container-SignIn" style="height: 490px;">
+        <form>
+          <div class="form-group text-right">
+            <label for="exampleInputEmail1">البريد الألكتروني</label>
+            <input
+              type="email"
+              class="form-control text-right"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="ضع بريدك الالكتروني"
+            />
+          </div>
+          <div class="form-group text-right">
+            <label for="exampleInputPassword1">كلمة المرور</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="اكتب هنا كلمة المرور"
+            />
+          </div>
+          <div class="form-group text-right">
+            <label for="exampleInputPassword1">تأكيد لكلمة المرور</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword2"
+              placeholder="قم بتأكيد كلمة المرور"
+            />
+          </div>
+          <!-- <div class="form-group form-check text-right">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label
+              class="form-check-label"
+              style="text-decoration: underline;"
+              for="exampleCheck1"
+            ></label>
+          </div> -->
+          <div class="row" style="text-align: right; direction: rtl;">
+            <legend class="col-form-label col-sm-2 pt-0">الجنس :</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="option1"
+                  checked
+                />
+                <label
+                  class="form-check-label"
+                  for="gridRadios1"
+                  style="margin-right: 30px; margin-bottom: 10px;"
+                >
+                  ذكر
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios2"
+                  value="option2"
+                />
+                <label
+                  class="form-check-label"
+                  for="gridRadios2"
+                  style="margin-right: 30px; margin-bottom: 10px;"
+                >
+                  انثى
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios2"
+                  value="option2"
+                />
+                <label
+                  class="form-check-label"
+                  for="gridRadios2"
+                  style="margin-right: 30px; margin-bottom: 10px;"
+                >
+                  ليس ضروري
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="button-flex">
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="margin-top: 10px;"
+            onclick="RegisterClick();"
+          >
+            اِنشاء الحساب
+          </button>
+        </div>
+        <div class="New">
+          <a href="SignIn.html">اذا كان لديك حساب بالفعل قم بالنقر هنا</a>
+        </div>
+      </div>
+    </div>
+    <!-- </div>
+    <script src="JS/script.js"></script> -->
+    <script src="JS/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
