@@ -87,7 +87,7 @@ SideBar
 /* Start Of Teacher Box */
 .TeacherBox {
   padding: 5px;
-  width: 100%;
+  width: 99%;
   height: 30%;
   background-color: tomato;
   border-radius: 8px;
@@ -171,6 +171,7 @@ SideBar
 /* End Of CourseInfo */
 .course-videos-content {
   margin-top: 10px;
+  margin-left: 10px;
   border-radius: 10px;
   padding: 20px;
   background-color: var(--main-color--);
